@@ -5,7 +5,7 @@
 //use plp_bookstore
 //db.createCollection("books")
 
-db.books.insertmany([
+db.books.insertMany([
   {
     title: 'To Kill a Mockingbird',
     author: 'Harper Lee',
